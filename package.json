@@ -21,6 +21,8 @@
     "run:dashboard:android": "pnpm --filter dashboard android",
     "bundle:auth:ios": "pnpm --filter auth bundle:ios",
     "bundle:auth:android": "pnpm --filter auth bundle:android",
+    "bundle:shopping:android": "pnpm --filter shopping bundle:android",
+    "bundle:shopping:ios": "pnpm --filter shopping bundle:ios",
     "build:host:android": "cd packages/host/android && ./gradlew assembleRelease --stacktrace --no-daemon && cd ../../..",
     "pods": "pnpm -r pods",
     "pods:update": "pnpm -r pods:update",

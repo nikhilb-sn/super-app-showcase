@@ -106,7 +106,7 @@ export default env => {
     output: {
       clean: true,
       path: path.join(dirname, 'build/generated', platform),
-      filename: 'index.bundle',
+      filename: 'shopping.bundle',
       chunkFilename: '[name].chunk.bundle',
       publicPath: Repack.getPublicPath({platform, devServer}),
     },
