@@ -54,12 +54,21 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E901E19B2CB81B6F007CFD58"
+            BuildableName = "hostUAT.app"
+            BlueprintName = "hostUAT"
+            ReferencedContainer = "container:host.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "host.app"
             BlueprintName = "host"
             ReferencedContainer = "container:host.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -71,9 +80,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "host.app"
-            BlueprintName = "host"
+            BlueprintIdentifier = "E901E19B2CB81B6F007CFD58"
+            BuildableName = "hostUAT.app"
+            BlueprintName = "hostUAT"
             ReferencedContainer = "container:host.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
