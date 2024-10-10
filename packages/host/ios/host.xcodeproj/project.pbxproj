@@ -15,14 +15,14 @@
 		7699B88040F8A987B510C191 /* libPods-host-hostTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-host-hostTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		AA323DC42A177FFA00649DEB /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA323DC32A177FFA00649DEB /* BootSplash.storyboard */; };
-		E901E1942CB81142007CFD58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E901E1932CB81142007CFD58 /* GoogleService-Info.plist */; };
 		E901E19F2CB81B6F007CFD58 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		E901E1A02CB81B6F007CFD58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		E901E1A22CB81B6F007CFD58 /* libPods-host.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-host.a */; };
 		E901E1A42CB81B6F007CFD58 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA323DC32A177FFA00649DEB /* BootSplash.storyboard */; };
 		E901E1A62CB81B6F007CFD58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		E901E1A72CB81B6F007CFD58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		E901E1B42CB81C0D007CFD58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E901E1B32CB81C0D007CFD58 /* GoogleService-Info.plist */; };
+		E901E1BA2CB821BB007CFD58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E901E1B52CB821BB007CFD58 /* GoogleService-Info.plist */; };
+		E901E1BD2CB821BB007CFD58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E901E1B72CB821BB007CFD58 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = host/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-host-hostTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-host-hostTests.release.xcconfig"; path = "Target Support Files/Pods-host-hostTests/Pods-host-hostTests.release.xcconfig"; sourceTree = "<group>"; };
 		AA323DC32A177FFA00649DEB /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = host/BootSplash.storyboard; sourceTree = "<group>"; };
-		E901E1932CB81142007CFD58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E901E1B12CB81B6F007CFD58 /* hostUAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hostUAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E901E1B22CB81B6F007CFD58 /* host copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "host copy-Info.plist"; path = "/Users/Nikhil.x.Batra/Downloads/super-app-showcase/packages/host/ios/host copy-Info.plist"; sourceTree = "<absolute>"; };
-		E901E1B32CB81C0D007CFD58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E901E1B52CB821BB007CFD58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E901E1B72CB821BB007CFD58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -108,7 +108,7 @@
 		13B07FAE1A68108700A75B9A /* host */ = {
 			isa = PBXGroup;
 			children = (
-				E901E1982CB81B46007CFD58 /* GoogleService */,
+				E901E1B92CB821BB007CFD58 /* GoogleService */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -174,29 +174,29 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		E901E1982CB81B46007CFD58 /* GoogleService */ = {
+		E901E1B62CB821BB007CFD58 /* Prod */ = {
 			isa = PBXGroup;
 			children = (
-				E901E19A2CB81B68007CFD58 /* UAT */,
-				E901E1992CB81B60007CFD58 /* Prod */,
+				E901E1B52CB821BB007CFD58 /* GoogleService-Info.plist */,
 			);
-			name = GoogleService;
+			path = Prod;
 			sourceTree = "<group>";
 		};
-		E901E1992CB81B60007CFD58 /* Prod */ = {
+		E901E1B82CB821BB007CFD58 /* Uat */ = {
 			isa = PBXGroup;
 			children = (
-				E901E1932CB81142007CFD58 /* GoogleService-Info.plist */,
+				E901E1B72CB821BB007CFD58 /* GoogleService-Info.plist */,
 			);
-			name = Prod;
+			path = Uat;
 			sourceTree = "<group>";
 		};
-		E901E19A2CB81B68007CFD58 /* UAT */ = {
+		E901E1B92CB821BB007CFD58 /* GoogleService */ = {
 			isa = PBXGroup;
 			children = (
-				E901E1B32CB81C0D007CFD58 /* GoogleService-Info.plist */,
+				E901E1B62CB821BB007CFD58 /* Prod */,
+				E901E1B82CB821BB007CFD58 /* Uat */,
 			);
-			name = UAT;
+			path = GoogleService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA323DC42A177FFA00649DEB /* BootSplash.storyboard in Resources */,
-				E901E1942CB81142007CFD58 /* GoogleService-Info.plist in Resources */,
+				E901E1BA2CB821BB007CFD58 /* GoogleService-Info.plist in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -332,7 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E901E1A42CB81B6F007CFD58 /* BootSplash.storyboard in Resources */,
-				E901E1B42CB81C0D007CFD58 /* GoogleService-Info.plist in Resources */,
+				E901E1BD2CB821BB007CFD58 /* GoogleService-Info.plist in Resources */,
 				E901E1A62CB81B6F007CFD58 /* LaunchScreen.storyboard in Resources */,
 				E901E1A72CB81B6F007CFD58 /* Images.xcassets in Resources */,
 			);
