@@ -15,7 +15,7 @@ const SignInScreen = () => {
         This is a dummy login screen. Just press the button and have a look
         around this super app 🚀
       </Text>
-      <Button mode="contained" onPress={signIn}>
+      <Button mode="contained" onPress={signIn} testID="loginButton">
         Login
       </Button>
     </View>

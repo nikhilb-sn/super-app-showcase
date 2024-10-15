@@ -15,32 +15,33 @@ const SignInScreen = React.lazy(() =>
 
 const App = () => {
   return (
-    <ErrorBoundary name="AuthProvider">
-      <React.Suspense fallback={<SplashScreen />}>
-        <AuthProvider>
-          {(authData: {isSignout: boolean; isLoading: boolean}) => {
-            if (authData.isLoading) {
-              return <SplashScreen />;
-            }
+    <SignInScreen />
+    // <ErrorBoundary name="AuthProvider">
+    //   <React.Suspense fallback={<SplashScreen />}>
+    //     <AuthProvider>
+    //       {(authData: {isSignout: boolean; isLoading: boolean}) => {
+    //         if (authData.isLoading) {
+    //           return <SplashScreen />;
+    //         }
 
-            if (authData.isSignout) {
-              return (
-                <React.Suspense fallback={<SplashScreen />}>
-                  <SignInScreen />
-                </React.Suspense>
-              );
-            }
+    //         if (authData.isSignout) {
+    //           return (
+    //             <React.Suspense fallback={<SplashScreen />}>
+    //               <SignInScreen />
+    //             </React.Suspense>
+    //           );
+    //         }
 
-            return (
-              <NavigationContainer
-                onReady={() => RNBootSplash.hide({fade: true, duration: 500})}>
-                <MainNavigator />
-              </NavigationContainer>
-            );
-          }}
-        </AuthProvider>
-      </React.Suspense>
-    </ErrorBoundary>
+    //         return (
+    //           <NavigationContainer
+    //             onReady={() => RNBootSplash.hide({fade: true, duration: 500})}>
+    //             <MainNavigator />
+    //           </NavigationContainer>
+    //         );
+    //       }}
+    //     </AuthProvider>
+    //   </React.Suspense>
+    // </ErrorBoundary>
   );
 };
 
