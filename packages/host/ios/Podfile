@@ -50,24 +50,24 @@ target 'host' do
 end
 
 # HostUAT target configuration
-target 'hostUAT' do
-  config = use_native_modules!
+# target 'hostUAT' do
+#   config = use_native_modules!
 
-  # Common pods for hostUAT
-  common_pods
+#   # Common pods for hostUAT
+#   common_pods
 
-  # Flags change depending on the env values.
-  flags = get_default_flags()
+#   # Flags change depending on the env values.
+#   flags = get_default_flags()
 
-  use_react_native!(
-    :path => config[:reactNativePath],
-    :hermes_enabled => flags[:hermes_enabled],
-    :fabric_enabled => flags[:fabric_enabled],
-    :flipper_configuration => flipper_config,
-    :app_path => "#{Pod::Config.instance.installation_root}/.."
-  )
+#   use_react_native!(
+#     :path => config[:reactNativePath],
+#     :hermes_enabled => flags[:hermes_enabled],
+#     :fabric_enabled => flags[:fabric_enabled],
+#     :flipper_configuration => flipper_config,
+#     :app_path => "#{Pod::Config.instance.installation_root}/.."
+#   )
 
-end
+# end
 
 # Combine post_install hooks
 post_install do |installer|
