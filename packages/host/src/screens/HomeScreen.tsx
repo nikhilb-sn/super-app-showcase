@@ -85,6 +85,7 @@ const HomeScreen = ({navigation}: Props) => {
         </Text>
         <Button
           mode="contained-tonal"
+          testID="seeAllButton"
           onPress={() => navigation.navigate('Upcoming')}>
           See All
         </Button>
