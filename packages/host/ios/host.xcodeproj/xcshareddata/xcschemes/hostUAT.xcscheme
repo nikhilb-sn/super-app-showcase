@@ -86,12 +86,21 @@
             ReferencedContainer = "container:host.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E901E19B2CB81B6F007CFD58"
+            BuildableName = "hostUAT.app"
+            BlueprintName = "hostUAT"
+            ReferencedContainer = "container:host.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "ReleaseUAT"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
