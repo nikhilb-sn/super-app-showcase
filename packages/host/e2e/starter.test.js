@@ -17,5 +17,8 @@ describe('Appointments Screen', () => {
     
     // Optionally, check if the navigation happened by verifying the new screen
     await expect(element(by.text('Upcoming'))).toBeVisible();
+
+    await expect(element(by.text('Coloring • John Doe'))).toBeVisible();
+    // await expect(element(by.id('cardTitle_0'))).toBeVisible();
   });
 });

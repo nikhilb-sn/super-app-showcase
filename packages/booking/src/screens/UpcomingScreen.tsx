@@ -1,17 +1,23 @@
 import React from 'react';
-import {FlatList, StyleSheet} from 'react-native';
+import {FlatList, StyleSheet, Text, View} from 'react-native';
 import {Avatar, Button, Card, Divider} from 'react-native-paper';
 import upcomingBookings from '../data/upcomingBookings.json';
 
-const renderItem = ({item}: any) => (
+const renderItem = ({item, index}: any) => (
   <Card mode="contained">
     <Card.Title
+      data-testid={`cardTitle_${index}`}
+      accessibilityLabel={`cardTitle_${index}`}
       titleVariant="titleMedium"
       subtitleVariant="bodyMedium"
       title={`${item.title} • ${item.provider}`}
       subtitle={`${item.date} ${item.time}`}
       left={props => <Avatar.Icon {...props} icon="calendar" />}
     />
+    {/* <View>
+      <Text testID={`cardTitle_${index}`}>{`${item.title} • ${item.provider}`}</Text>
+      <Text>{`${item.date} ${item.time}`}</Text>
+    </View> */}
     <Card.Actions>
       <Button mode="text" onPress={() => {}}>
         Cancel
